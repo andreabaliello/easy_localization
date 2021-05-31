@@ -13,7 +13,11 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  shared_preferences: ^2.0.0-nullsafety
+  # shared_preferences: ^2.0.0-nullsafety
+  shared_preferences:
+    git:
+      url: https://github.com/andreabaliello/plugins.git
+      path: packages/shared_preferences/shared_preferences
   intl: '>=0.17.0-0 <=0.17.0'
   args: ^2.0.0
   path: '>=1.8.0-0 <=1.8.0'
